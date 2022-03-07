@@ -1,0 +1,333 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 6rem;
+    background-color: #EF6F6C;
+}
+
+.logo{
+    height: 5rem;
+    width: auto;
+    margin-left: 3rem;
+    margin-top: 5px;
+}
+
+.navigation-menu{
+    font-size: 1.4rem;
+    margin-top: 2rem;
+    margin-left: 30rem;
+}
+
+.navigation-menu-anchors{
+    text-decoration: none;
+    margin-right: 4rem;
+    color: #D6D5C9;
+}
+
+.navigation-menu-anchors-active{
+    text-decoration: none;
+    margin-right: 4rem;
+    color: white;
+}
+
+.navigation-menu-button{
+    box-sizing: content-box;
+    padding: 0;
+    text-align: center;
+    font-size: 1rem;
+    background-color: #0A100D;
+    border: none;
+    width: 13rem;
+    height: 3rem;
+    border-radius: 5px;
+}
+
+.navigation-menu-button-text{
+    text-decoration: none;
+    font-size: 1.3rem;
+    margin: 0;
+    color: #D6D5C9;
+    font-weight: bold;
+}
+
+.main-message{
+    height: 40rem;
+    background: linear-gradient(#EF6F6C, #FFFFFF);
+    display: flex;
+}
+
+.main-message-separator{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.main-message-textbox{
+    margin-top: 6rem;
+    margin-left: 12rem;
+    background-color: white;
+    width: 35rem;
+    height: 28rem;
+    border-radius: 93px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+
+.main-message-textbox-text{
+    margin-top: 6rem;
+    margin-left: 4rem;
+    font-size: 1.5rem;
+}
+
+.main-message-textbox-text p{
+    font-size: 1rem;
+    width: 80%;
+}
+
+.main-message-textbox-text button{
+    width: 10rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.main-message-image{
+    background-image: url(/images/cake_1.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 2.2rem;
+    margin-left: 30rem;
+    background-color: white;
+    width: 50rem;
+    height: 35rem;
+    border-radius: 93px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    position: absolute;
+}
+
+.main-searchbar{
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+}
+
+.main-searchbar h1{
+    width: 20rem;
+    margin-left: 37rem;
+}
+
+.main-searchbar-bar{
+    display: flex;
+}
+
+.main-searchbar-bar input{
+    margin-left: 28rem;
+    width: 30rem;
+    border-radius: 0.3rem;
+    background-color: #EBEBEB;
+    border: none;
+    text-indent: 10px;
+}
+
+.main-searchbar-bar button{
+    width: 10rem;
+}
+
+.main-hottest-products{
+    width: 100%;
+    height: 36rem;
+}
+
+.main-hottest-products-title{
+    height: 3rem;
+    width: 100%;
+}
+
+.main-hottest-products h1{
+    width: 20rem;
+    margin-left: 41rem;
+}
+
+.main-hottest-products-menu{
+    background-image: url(/images/back-1.png);
+    background-position: center;
+    background-size: cover;
+    height: 30rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.row{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.main-hottest-products-items{
+    padding-top: 5rem;
+    height: 20rem;
+}
+
+.product{
+    height: 20rem;
+    width: 20rem;
+    list-style: none;
+    text-decoration: none;
+    margin-left: 3.2rem;
+}
+
+.product-background{
+    margin-left: 2rem;
+    background-color: #FFFFFF;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 3rem;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.4);
+}
+
+.product-image{
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+}
+
+.product-image img{
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+}
+
+.product-text{
+    text-align: center;
+    width: 10rem;
+    height: 10rem;
+    width: 100%;
+}
+
+.product-text h2{
+    margin-bottom: 0;
+}
+
+.product-text h3{
+    margin-top: 0;
+}
+
+.main-catalog{
+    width: 100%;
+    height: 90rem;
+}
+
+.main-catalog-title{
+    height: 3rem;
+    width: 100%;
+}
+
+.main-catalog h1{
+    width: 30rem;
+    margin-left: 34rem;
+}
+
+.main-catalog-menu{
+    background: linear-gradient(#EF6F6C, #FFFFFF);
+    background-position: center;
+    background-size: cover;
+    height: 90rem;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.4);
+}
+
+.main-catalog-menu .row{
+    margin-bottom: 7rem;
+}
+
+.main-personalize{
+    width: 100%;
+    height: 38.5rem;
+}
+
+.main-personalize-title{
+    height: 3rem;
+    width: 100%;
+}
+
+.main-personalize h1{
+    width: 30rem;
+    margin-left: 34rem;
+}
+
+.main-personalize-message{
+    background-image: url(/images/back-2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 35rem;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+.main-personalize-message-background{
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 35rem;
+    opacity: 0.3;
+}
+
+.main-personalize-message-part{
+    background-color: white;
+    position: absolute;
+    width: 60rem;
+    height: 30rem;
+    border-radius: 145px;
+    margin-top: 2.4rem;
+    margin-left: 15rem;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+.main-personalize-message-part-text h1{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    margin-left: 18rem;
+}
+
+.main-personalize-message-part-text p{
+    text-align: center;
+    margin-left: 12rem;
+    width: 35rem;
+}
+
+.main-personalize-message-part-text button{
+    margin-top: 2rem;
+    margin-left: 23rem;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 7rem;
+    background-color: #0A100D;
+}
+
+footer .logo{
+    margin-top: 1rem;
+    margin-left: 30rem;
+}
+
+footer label{
+    margin-left: 3rem;
+    margin-top: 2.8rem;
+    color: #EF6F6C;
+}
+

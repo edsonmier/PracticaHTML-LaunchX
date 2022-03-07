@@ -1,0 +1,321 @@
+
+.bakery-control{
+    position: absolute;
+    background: linear-gradient(#EF6F6C, #FFFFFF);
+    height: 40rem;
+    width: 100%;
+}
+
+.bakery-message{
+    background-color: white;
+    margin-top: 2rem;
+    margin-left: 15rem;
+    width: 60rem;
+    height: 5rem;
+    border-radius: 93px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.bakery-message label{
+    margin-top: 1rem;
+    margin-left: 16rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bakery-flavors{
+    justify-content: center;
+    position: absolute;
+    height: 50rem;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.bakery-flavors-image{
+    background-image: url(/images/back-5.jpg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    width: 80rem;
+    height: 15rem;
+    border-radius: 53px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.backery-flavors-image-message{
+    background-color: white;
+    margin-top: 5rem;
+    width: 60rem;
+    height: 5rem;
+    border-radius: 93px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.backery-flavors-image-message label{
+    margin-top: 1rem;
+    margin-left: 20rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bakery-flavors-list{
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+}
+
+.bakery-flavors-list-row{
+    justify-content: center;
+    display: flex;
+    margin-top: 2.5rem;
+    width: 93%;
+    height: 8rem;
+}
+
+.bakery-flavors-list-element{
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 25rem;
+    height: 5rem;
+    border-radius: 93px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.bakery-flavors-list-element label{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bakery-fillers{
+    position: absolute;
+    height: 40rem;
+    width: 100%;
+    margin-top: 60rem;
+}
+
+.bakery-fillers-image{
+    background-image: url(/images/back-7.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    width: 80rem;
+    height: 15rem;
+    border-radius: 53px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.backery-fillers-image-message{
+    background-color: white;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    width: 60rem;
+    height: 5rem;
+    border-radius: 93px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.backery-fillers-image-message label{
+    margin-top: 1rem;
+    margin-left: 20rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bakery-fillers-list{
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+}
+
+.bakery-fillers-list-row{
+    justify-content: center;
+    display: flex;
+    margin-top: 2.5rem;
+    width: 93%;
+    height: 8rem;
+}
+
+.bakery-fillers-list-element{
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 25rem;
+    height: 5rem;
+    border-radius: 93px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.bakery-fillers-list-element label{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bakery-deco{
+    position: absolute;
+    height: 40rem;
+    width: 100%;
+    margin-top: 110rem;
+}
+
+.bakery-deco-image{
+    background-image: url(/images/back-8.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    width: 80rem;
+    height: 15rem;
+    border-radius: 53px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.backery-deco-image-message{
+    background-color: white;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    width: 60rem;
+    height: 5rem;
+    border-radius: 93px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.backery-deco-image-message label{
+    margin-top: 1rem;
+    margin-left: 20rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bakery-deco-list{
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 25rem;
+    justify-content: center;
+}
+
+.bakery-deco-list-row{
+    justify-content: center;
+    display: flex;
+    margin-top: 2.5rem;
+    width: 93%;
+    height: 8rem;
+}
+
+.bakery-deco-list-element{
+    background-color: white;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 25rem;
+    height: 5rem;
+    border-radius: 93px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.bakery-deco-list-element label{
+    margin-top: 1rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bakery-orders{
+    position: absolute;
+    background: linear-gradient(#FFFFFF, #EF6F6C);
+    height: 50rem;
+    width: 100%;
+    margin-top: 150rem;
+}
+
+.bakery-orders-image{
+    background-image: url(/images/back-9.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-left: 5rem;
+    width: 80rem;
+    height: 15rem;
+    border-radius: 53px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.bakery-orders-image-message{
+    background-color: white;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    width: 60rem;
+    height: 5rem;
+    border-radius: 93px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+}
+
+.bakery-orders-image-message label{
+    margin-top: 1rem;
+    margin-left: 22rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.bakery-orders-back{
+    margin-left: 10rem;
+    margin-top: 4rem;
+    background-color: white;
+    width: 70rem;
+    height: 25rem;
+    border-radius: 53px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+}
+
+.bakery-orders-table{
+    margin-top: 2rem;
+    height: 20rem;
+}
+
+.bakery-orders-table th{
+    font-size: 1.5rem;
+    width: 12rem;
+    font-weight: bold;
+    background-color: #EF6F6C;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+.bakery-orders-table tr{
+    padding-right: 15px;
+}
+
+.bakery-orders-table td{
+    text-align: center;
+    width: 12rem;
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.4);
+}
+
+footer{
+    margin-top: 200rem;
+}
